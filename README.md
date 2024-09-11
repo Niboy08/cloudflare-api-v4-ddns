@@ -67,3 +67,9 @@ crontab -e
 # 如果需要日志，替换上一行代码
 */2 * * * * /root/cf-v4-ddns.sh >> /var/log/cf-ddns.log 2>&1
 ```
+
+
+
+原作者：https://github.com/yulewang/cloudflare-api-v4-ddns
+参考作者：https://github.com/aipeach/cloudflare-api-v4-ddns
+参考网址：https://aipeach.gitbook.io/blogbackup/cloudflare-da-jian-ddns-jiao-ben-ban
