@@ -17,7 +17,7 @@ Now the script also supports v6(AAAA DDNS Recoards)
 ----
 ![image.png](https://i.loli.net/2021/11/13/OMpjhUyubrwN6Lk.png)
 
-
+----
  
 
 1
@@ -27,12 +27,14 @@ Now the script also supports v6(AAAA DDNS Recoards)
 
 2
 下载 DNNS 脚本
-复制
+```
 curl https://raw.githubusercontent.com/aipeach/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x /root/cf-v4-ddns.sh
+```
 修改 DDNS 脚本并补充相关信息
-复制
+```
 vim cf-v4-ddns.sh
-复制
+```
+```
 # incorrect api-key results in E_UNAUTH error
 # 填写 Global API Key
 CFKEY=
@@ -48,6 +50,7 @@ CFZONE_NAME=
 # Hostname to update, eg: homeserver.example.com
 # 填写 DDNS 的二级域名(只需填写前缀)
 CFRECORD_NAME=
+```
 设置定时任务
 首次运行脚本,输出内容会显示当前IP，进入cloudflare查看 确保IP已变更为当前IP
 
