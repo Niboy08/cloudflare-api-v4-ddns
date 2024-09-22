@@ -29,10 +29,10 @@ set -o pipefail
 CFKEY=（令牌）
 
 # Zone name, eg: example.com
-CFZONE_NAME=（一级域名）
+CFZONE_NAME=（一级域名如：baidu.com）
 
 # Hostname to update, eg: homeserver.example.com
-CFRECORD_NAME=（二级域名头）
+CFRECORD_NAME=（二级域名头如：www）
 
 # Record type, A(IPv4)|AAAA(IPv6), default IPv4
 CFRECORD_TYPE=A
