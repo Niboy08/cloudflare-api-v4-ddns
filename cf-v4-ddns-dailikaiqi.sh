@@ -26,13 +26,13 @@ set -o pipefail
 
 # API token, see https://www.cloudflare.com/a/account/my-account,
 # incorrect api-token results in E_UNAUTH error
-CFKEY=0a28b7ce665964fd0dd47d508a1b4ea359dd8
+CFKEY=（令牌-开启代理权限）
 
 # Zone name, eg: example.com
-CFZONE_NAME=540808.xyz
+CFZONE_NAME=（一级域名如：baidu.com）
 
 # Hostname to update, eg: homeserver.example.com
-CFRECORD_NAME=sg
+CFRECORD_NAME=（二级域名头如：www）
 
 # Record type, A(IPv4)|AAAA(IPv6), default IPv4
 CFRECORD_TYPE=A
